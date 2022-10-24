@@ -1,0 +1,8 @@
+apiVersion: app.example.com/v1alpha1
+kind: PodSet
+metadata:
+  annotations:
+    example.com/enable-hot-new-feature: true
+  name: podset-sample
+spec:
+  replicas: 3

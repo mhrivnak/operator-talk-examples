@@ -1,0 +1,6 @@
+apiVersion: app.example.com/v1alpha1
+kind: FancyDNS
+metadata:
+  name: production
+spec:
+  listenProtocol: "UDP" # UDP|TCP|Both
